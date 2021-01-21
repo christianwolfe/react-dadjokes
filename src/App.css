@@ -1,7 +1,38 @@
-.App {
-  text-align: center;
-}
 
+.App {
+  background-color: whitesmoke;
+  text-align: center;
+  color: black;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 5rem;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 1px 1px 3px #3a3a3a
+
+
+}
+.joke-container {
+  margin: 10px;
+  background-color: #5a5a5a;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  box-shadow: 1px 1px 3px black;
+}
+header {
+  color: black;
+}
+button {
+	width:60px;
+	height:30px;
+	background-color:#7289da;
+	color: white;
+	border-radius: 5px;
+  text-align:center;
+  border: none;
+  box-shadow: 1px 1px 2px black;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +45,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
