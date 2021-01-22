@@ -1,12 +1,13 @@
 import React from 'react'
 
 
-function JokeContainer(props) {
+function JokeContainer({joke, handleDelete}) {
     return (
       <div className="joke-container">
         { 
-        props.joke.map(joke => (
-          <p>{joke}</p>
+        joke.map(joke => (
+          <p key={joke.id}>{joke.joke}
+          <button id="del-btn" onClick={ () => handleDelete(joke.id)}>x</button></p>
         ))
           }
       </div>

@@ -12,4 +12,7 @@ Second in class exercise in the introduction to React for DigitalCrafts Immersiv
 - [ ] maybe grab a dad joke on page load
 
 ## Screenshot
+v1
 <img src="public/screenshot.png">
+v2
+<img src="public/screenshot2.png">
