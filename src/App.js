@@ -23,16 +23,8 @@ function App() {
 
   function deleteJoke(id) {
     //filter out a joke from the jokeArray
-    const filteredArray = jokeArray.filter(j => {
-      if (j.id === id) {
-        return false;
-      } else {
-        return true;
-        }
-      })
-    // use the jokes id to identify the joke to be deleted
-    // setJokeArray using the newly filtered array
-    console.log(`You want to delete ${id}`)
+    const filteredArray = jokeArray.filter(j => j.id !== id)
+        // setJokeArray using the newly filtered array
     setJokeArray(filteredArray);
   }
   useEffect( () => {
