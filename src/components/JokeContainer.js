@@ -4,7 +4,11 @@ import React from 'react'
 function JokeContainer(props) {
     return (
       <div className="joke-container">
-        <p>{props.joke}</p>
+        { 
+        props.joke.map(joke => (
+          <p>{joke}</p>
+        ))
+          }
       </div>
     );
   }
